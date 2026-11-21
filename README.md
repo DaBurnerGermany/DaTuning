@@ -70,3 +70,11 @@ DaTuning saves modifications permanently when the vehicle has a matching garage 
 **Rear underglow only appears after a repair.** Vehicle damage can affect how GTA renders the lighting. Use **Service → Repair vehicle** to preview the repair before buying it.
 
 **The company account cannot be found.** Check the allowed job name and account mapping in the config. ESX requires an existing shared account in `esx_addonaccount`. QBCore requires an existing job account in `qb-banking`.
+
+
+## 💬 Support
+
+Need help or have questions?
+
+Join our Discord server:
+[💬 Discord Support]([https://discord.gg/DEIN-LINK](https://discord.gg/Cxfe2y8TJ))
