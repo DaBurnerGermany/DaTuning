@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DaTuning</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <main id="workshop" hidden>
+        <div class="preview-drag" id="preview-drag" aria-hidden="true"></div>
+        <section class="panel" data-label="workshop">
+            <header class="header">
+                <div>
+                    <p class="location" id="location"></p>
+                    <h1 id="vehicle"></h1>
+                </div>
+                <button class="icon close" id="close" data-title="closeShortcut" data-label="close">×</button>
+            </header>
+            <div class="vehicle-details"><span id="plate"></span><span id="storage"></span></div>
+            <div class="camera" role="group" data-label="camera">
+                <button type="button" id="engine-sound" data-text="engineSound"></button>
+                <button data-turn="-22" data-title="rotateLeft" data-label="rotateLeft">↶</button>
+                <button data-turn="22" data-title="rotateRight" data-label="rotateRight">↷</button>
+                <button data-zoom="-1" data-title="zoomIn" data-label="zoomIn">+</button>
+                <button data-zoom="1" data-title="zoomOut" data-label="zoomOut">−</button>
+            </div>
+            <nav id="categories" data-label="categories"></nav>
+            <div class="parts" id="parts"></div>
+            <footer>
+                <p class="status" id="status" role="status"></p>
+                <details id="summary" hidden>
+                    <summary data-text="summary"></summary>
+                    <ul id="summary-items"></ul>
+                </details>
+                <div class="total"><span id="count"></span><strong id="total"></strong></div>
+                <div class="actions">
+                    <button id="reset" data-text="reset"></button>
+                    <button class="primary" id="purchase" data-text="buy"></button>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
